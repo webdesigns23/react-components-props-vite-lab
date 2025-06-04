@@ -2,9 +2,9 @@ import React from "react";
 
 //About Child of App
 
-function About({image, about}) {
-	const defaultImage = "https://via.placeholder.com/215";
-	const imageUrl = image ?? defaultImage;
+export default function About({image, about}) {
+	//error handling if no image
+	const imageUrl = image ?? "https://via.placeholder.com/215";
 
 	return(
 		<aside>
@@ -14,4 +14,3 @@ function About({image, about}) {
 	);
 }
 
-export default About;

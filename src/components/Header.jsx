@@ -2,7 +2,7 @@ import React from "react";
 
 //Header Child of App
 
-function Header({name}) {
+export default function Header({name}) {
 	return(
 		<header>
 			<h1>
@@ -12,4 +12,3 @@ function Header({name}) {
 	);
 }
 
-export default Header;

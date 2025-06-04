@@ -6,7 +6,7 @@ import ArticleList from "./ArticleList";
 
 //to pass blog data down to children
 import blogData from "../data/blog";
-console.log(blogData);
+console.log("blogData", blogData);
 
 function App() {
   return (
